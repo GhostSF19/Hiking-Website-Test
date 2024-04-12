@@ -1,11 +1,18 @@
 h1 {
-    font-family: Khand;
-    width: 1670px;
-    height: 934px;
-    top: -22px;
-    left: -10px;
+    width: 723px;
+    height: 83px;
+    top: 441px;
+    left: 98px;
     gap: 0px;
     opacity: 0px;
+    font-family: Khand;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 82.57px;
+    text-align: left;
+    
+
+    
 
 }
 
@@ -26,17 +33,31 @@ nav {
     font-family: Khand;
 }
 
-.explore {
 
-
+.banner
+ {
+    background-image: url('Mountains1.jpg');
+    background-size: cover; 
+    background-position: center; /* Center the background image */
+    height: 400px; 
+    width: 1440px;
+    height: 834px;
+    top: 78px;
+    gap: 0px;
+    opacity: 0.3px;
+    color: white;
+    
 
 }
 
-.moment {
- 
-
+.banner nav a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    border: 2px solid white; 
+    text-decoration: none; 
+    color: white; 
 }
 
-.banner {
-    <bg-image #http://127.0.0.1:5500/Mountains1.jpg>
+.banner nav a:hover {
+    background-color: rgb(255, 255, 255); 
 }
