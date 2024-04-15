@@ -6,8 +6,37 @@
 .sticky-header {
     position: sticky;
     top: 0;
-    background-color: #ffffff;
+    background-color: #7fa1a3;
+    opacity: 70%;
+    height: 70px;
+    flex-wrap: wrap;
+    align-content: space-around;
     z-index: 1000;
+    display: flex;
+  justify-content: center;
+ 
+  }
+
+  .sticky-header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .sticky-header li {
+    margin: 0 20px; 
+    
+  }
+  
+  .sticky-header li a {
+    text-decoration: none;
+    color: azure;
+  }
+
+  body {
+    margin: 0;
+    
   }
   
 h1 {
@@ -25,8 +54,13 @@ h1 {
 }
 
 .container {
+    color: white;
+    font-weight: 400;
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(97, 96, 96);
+    padding: 0;
+    border-bottom: solid 0px;
   }
   
   .sub-text {
@@ -44,13 +78,14 @@ h1 {
     height: 500px;
     position: absolute;
     z-index: -1;
+    border-bottom: solid 10px;
 }
 
 .banner
  {
     height: 400px; 
     width: 1440px;
-    height: 834px;
+    height: 469px;
     top: 78px;
     gap: 0px;
     opacity: 0.3px;
@@ -76,4 +111,12 @@ h1 {
 .banner button a:hover {
     background-color: rgb(255, 255, 255); 
     color: black;
+}
+
+.ready {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    background-color: #c3d9da;
 }
