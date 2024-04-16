@@ -119,4 +119,26 @@ h1 {
     flex-direction: column;
     align-content: center;
     background-color: #c3d9da;
+    
 }
+
+.video-container {
+
+  position: absolute;
+  top: 100px; 
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+.video {
+  display:flex;
+  justify-content: center;
+  background-color: #c3d9da;
+}
+
+.contact{
+  background-color: #6A8B8E;
+  margin: 0;
+}
+
