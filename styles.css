@@ -58,14 +58,15 @@ h1 {
     font-weight: 400;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(97, 96, 96);
+    background-color:rgb(58 57 57);
     padding: 0;
-    border-bottom: solid 0px;
+    border-bottom: solid 400px rgb(58 57 57);
   }
   
   .sub-text {
     flex: 1 0 30%; 
     margin: 0 10px; 
+    
   }
 
 
@@ -119,8 +120,20 @@ h1 {
     flex-direction: column;
     align-content: center;
     background-color: #c3d9da;
-    
+    height: 500px;
 }
+    .ready h3 {
+      /* Customizable styles for the h3 element */
+      font-size: 35px;
+      color: #000000;
+      text-align: center;
+      margin: 20px; 
+      position:absolute;
+      bottom: -320px;
+      left: 590px;
+  }
+    
+
 
 .video-container {
 
@@ -135,10 +148,25 @@ h1 {
   display:flex;
   justify-content: center;
   background-color: #c3d9da;
+  position: absolute;
+  bottom: -100px;
+  right: 600px;
 }
 
 .contact{
   background-color: #6A8B8E;
   margin: 0;
+  color: white;
 }
 
+.email {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position:absolute;
+  right: 150px; 
+  bottom: -462px;
+  color: white;
+}
