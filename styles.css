@@ -168,6 +168,10 @@ h1 {
   font-size: 20px;
   border-bottom: solid 170px #6A8B8E;
   border-top: solid #6A8B8E;
+  position:relative;
+  left: 0px;
+  border-left: solid 80px #6A8B8E;
+  
 }
 
 .email {
