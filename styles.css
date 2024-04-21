@@ -165,12 +165,12 @@ h1 {
   background-color: #6A8B8E;
   margin: 0;
   color: white;
-  font-size: 20px;
+  font-size: 40px;
   border-bottom: solid 170px #6A8B8E;
   border-top: solid #6A8B8E;
   position:relative;
-  left: 0px;
-  border-left: solid 80px #6A8B8E;
+  left: 0vw;
+  border-left: solid 350px #6A8B8E;
   
 }
 
@@ -181,16 +181,16 @@ h1 {
   justify-content: flex-end;
   align-items: flex-end;
   position:absolute;
-  right: 150px; 
-  bottom: -29vw;
+  right: 25vw; 
+  bottom: -32.5vw;
   color: white;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .icons footer {
   position: absolute;
   right: 2vw;
-  top: 103.5vw;
+  top: 106.5vw;
   color:white;
   
 }
@@ -201,7 +201,7 @@ h1 {
 
 .qacademy {
   position: absolute;
-  top: 102.5vw;
+  top: 105.5vw;
   right: 96vw;
   color: white;
  
@@ -209,9 +209,9 @@ h1 {
 
 .colored-field {
   width: 100vw;
-  height: 60px;
+  height: 70px;
   background-color: #2B5F62; /* You can change this color code to any color you like */
   position:absolute;
-  top: 103vw;
+  top: 106vw;
 }
 
