@@ -1,177 +1,190 @@
-
-*{
-    font-family: Khand;
+* {
+  font-family: Khand;
 }
 
+
+/* * { // Use this selector to check which element is overflowing
+  border: 1px solid red;
+} */
+
+
 .sticky-header {
-    position: sticky;
-    top: 0;
-    background-color: #7fa1a3;
-    opacity: 70%;
-    height: 70px;
-    flex-wrap: wrap;
-    align-content: space-around;
-    z-index: 1000;
-    display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #7fa1a3;
+  opacity: 70%;
+  height: 70px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  z-index: 1000;
+  display: flex;
   justify-content: center;
- 
-  }
 
-  .sticky-header ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-  
-  .sticky-header li {
-    margin: 0 20px; 
-    
-  }
-  
-  .sticky-header li a {
-    text-decoration: none;
-    color: azure;
-  }
+}
 
-  body {
-    margin: 0;
-    
-  }
-  
+.sticky-header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.sticky-header li {
+  margin: 0 20px;
+
+}
+
+.sticky-header li a {
+  text-decoration: none;
+  color: azure;
+}
+
+body {
+  margin: 0;
+}
+
 h1 {
-    width: 723px;
-    height: 83px;
-    top: 441px;
-    left: 98px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Khand;
-    font-size: 54px;
-    font-weight: 400;
-    line-height: 82.57px;
-    text-align: left;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0vw;
+  /* width: 723px; */
+  height: 83px;
+  top: 441px;
+  left: 98px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Khand;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 82.57px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0vw;
 }
 
 .container {
-    color: white;
-    font-weight: 400;
-    display: flex;
-    flex-wrap: wrap;
-    background-color:rgb(58 57 57);
-    padding: 0;
-    border-bottom: solid 400px rgb(58 57 57);
-  }
-  
-  .sub-text {
-    flex: 1 0 30%; 
-    margin: 150px 10px; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    align-content: space-around;
-    
-  }
+  color: white;
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(58 57 57);
+  padding: 0;
+  border-bottom: solid 400px rgb(58 57 57);
+}
+
+.sub-text {
+  flex: 1 0 30%;
+  margin: 150px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-content: space-around;
+
+}
 
 
 
 .banner-image {
-    background-image: url('Mountains1.jpg');
-    background-size: cover; 
-    background-position: center; 
-    width: 100%;
-    height: 500px;
-    position: absolute;
-    z-index: -1;
-    border-bottom: solid 10px rgb(58 57 57);
+  background-image: url('Mountains1.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  /* height: 500px; */
+  position: absolute;
+  z-index: -1;
+  border-bottom: solid 10px rgb(58 57 57);
 }
 
-.banner
- {
-    height: 400px; 
-    width: 1440px;
-    height: 469px;
-    top: 78px;
-    gap: 0px;
-    opacity: 0.3px;
-    color: white;
-   margin-left: 6vw;
-    
-    
+.banner {
+  /* height: 400px; 
+    width: 1440px; */
+  height: 70vh;
+  top: 78px;
+  gap: 0px;
+  opacity: 0.3px;
+  color: white;
+  margin-left: 6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 33%;
+
 
 }
 
-.banner button{
-    background-color: transparent;
+.banner button {
+  background-color: transparent;
+  width: 15rem;
+  height: 2rem;
+  border: 2px solid white;
+  border-radius: 20px;
 }
 
 .banner button a {
-    display: inline-block; 
-    padding: 10px 20px; 
-    border: 2px solid white; 
-    text-decoration: none; 
-    color: white; 
-    border-radius: 20px;
+  width: 100%;
+  display: inline-block;
+  /* padding: 10px 20px; */
+  text-decoration: none;
+  color: white;
 }
 
 .banner button a:hover {
-    background-color: rgb(255, 255, 255); 
-    color: black;
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 
 .ready {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    background-color: #c3d9da;
-    height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  background-color: #c3d9da;
+  height: 500px;
 }
-    .ready h3 {
-      font-size: 35px;
-      color: #000000;
-      text-align: center;
-      margin: 0; 
-      position:absolute;
-      bottom: -22vw;
-      left: 990px;
-  }
-    
+
+.ready h3 {
+  font-size: 35px;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  bottom: -22vw;
+  left: 990px;
+}
+
 
 
 .video-container {
-
-  position: absolute;
-  top: 100px; 
-  left: 0;
-  right: 0;
-  margin: 0;
-}
-
-.video {
-  display:flex;
+  width: 100%;
+  display: flex;
   justify-content: center;
   background-color: #c3d9da;
   position: absolute;
-  bottom: -18vw;
-  right: 35vw;
+  bottom: -55%;
 }
 
-.contact{
+.video {
+  position: absolute;
+  bottom: 0;
+  /* display: flex;
+  justify-content: center;
+  background-color: #c3d9da;
+  position: absolute;
+  left: 32%;
+  bottom: -55%; */
+}
+
+.contact {
   background-color: #6A8B8E;
   margin: 0;
   color: white;
   font-size: 40px;
   border-bottom: solid 170px #6A8B8E;
   border-top: solid #6A8B8E;
-  position:relative;
+  position: relative;
   left: 0vw;
   border-left: solid 350px #6A8B8E;
-  
+
 }
 
 .email {
@@ -180,14 +193,14 @@ h1 {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: flex-end;
-  position:absolute;
-  right: 25vw; 
+  position: absolute;
+  right: 25vw;
   bottom: -32.5vw;
   color: white;
   font-size: 40px;
 }
 
-.icons footer {
+/* .icons footer {
   position: absolute;
   right: 2vw;
   top: 106.5vw;
@@ -197,21 +210,44 @@ h1 {
 
 .icons footer i {
   margin-left: 20px; 
+} */
+
+.icons {
+  display: flex;
+  gap: 1rem;
+  margin-right: 3rem;
+}
+
+.icons i {
+  color: white;
 }
 
 .qacademy {
-  position: absolute;
+  /* position: absolute;
   top: 105.5vw;
   right: 96vw;
-  color: white;
- 
+  color: white; */
+
+}
+
+.qacademy-logo {
+  width: 6rem;
+  background-size: auto;
 }
 
 .colored-field {
-  width: 100vw;
+  width: 100%;
   height: 70px;
-  background-color: #2B5F62; /* You can change this color code to any color you like */
-  position:absolute;
-  top: 106vw;
+  background-color: #2B5F62;
+  /* You can change this color code to any color you like */
+  position: absolute;
+  /* top: 106vw; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.get-started-button{
+  width: 15rem;
+}
