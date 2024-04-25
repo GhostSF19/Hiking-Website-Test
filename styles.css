@@ -3,6 +3,10 @@
     font-family: Khand;
 }
 
+/* *{
+  border: 1px solid red;
+} */
+
 .sticky-header {
     position: sticky;
     top: 0;
@@ -84,7 +88,7 @@ h1 {
     background-size: cover; 
     background-position: center; 
     width: 100%;
-    height: 500px;
+    height: 52vh;
     position: absolute;
     z-index: -1;
     border-bottom: solid 10px rgb(58 57 57);
@@ -93,15 +97,12 @@ h1 {
 .banner
  {
     height: 400px; 
-    width: 1440px;
-    height: 469px;
+    padding: 5rem 0 0 5rem;
+    height: 44vh;
     top: 78px;
     gap: 0px;
     opacity: 0.3px;
     color: white;
-   margin-left: 6vw;
-    
-    
 
 }
 
@@ -145,20 +146,12 @@ h1 {
 
 .video-container {
 
-  position: absolute;
-  top: 100px; 
-  left: 0;
-  right: 0;
-  margin: 0;
 }
 
 .video {
-  display:flex;
-  justify-content: center;
   background-color: #c3d9da;
   position: absolute;
   bottom: -18vw;
-  right: 35vw;
 }
 
 .contact{
@@ -187,7 +180,7 @@ h1 {
   font-size: 40px;
 }
 
-.icons footer {
+/* .icons footer {
   position: absolute;
   right: 2vw;
   top: 106.5vw;
@@ -197,21 +190,32 @@ h1 {
 
 .icons footer i {
   margin-left: 20px; 
+} */
+
+.colored-field .icons{
+  color: white;
+  margin-right: 2rem;
+    display: flex;
+    gap: 1rem;
 }
 
 .qacademy {
-  position: absolute;
+  /* position: absolute;
   top: 105.5vw;
-  right: 96vw;
+  right: 96vw; */
   color: white;
- 
+}
+
+.qacademy img{
+  width: 7rem;
 }
 
 .colored-field {
   width: 100vw;
   height: 70px;
   background-color: #2B5F62; /* You can change this color code to any color you like */
-  position:absolute;
-  top: 106vw;
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
