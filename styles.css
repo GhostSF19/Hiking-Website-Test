@@ -140,21 +140,17 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: calc(100% + 680px); /* Adjust this value to position the text lower */
-  left: 50%;
-  transform: translateX(-50%);
+  transform: translate(0%, 500%);
 }
+
 
 .video-container {
   width: 100%;
   display: flex;
   justify-content: center;
   background-color: #c3d9da;
-  position: absolute;
-  bottom: -13%; /* Adjust this value to move the video container higher */
+  position: relative;
 }
-
 
 .video-container::after {
   content: '';
@@ -162,17 +158,31 @@ h1 {
   clear: both;
 }
 
-.video-container video {
-  width: 100%;
-}
-
-
-
 .video {
-  background-color: #c3d9da;
+  width: 95%; /* Adjust the width of the video frame */
+  max-width: 100%; /* Ensure the video frame never exceeds its container's width */
   position: absolute;
-  bottom: -18vw;
+  bottom: -20vw; /* Adjust this value to move the video frame higher */
+  left: 50%; /* Center the video frame horizontally */
+  transform: translateX(-50%); /* Center the video frame horizontally */
 }
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio (height = width * 9/16) */
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 41%;
+  left: 30%;
+  width: 40%;
+  height: 40%;
+}
+
+
+
 
 .contact-container {
   display: flex;
