@@ -285,7 +285,7 @@ h1 {
 
   h1 {
     width: auto; /* Adjust width for smaller screens */
-    font-size: 22px; /* Adjust font size for smaller screens */
+    font-size: 20px; /* Adjust font size for smaller screens */
   }
 
   .banner {
@@ -295,8 +295,8 @@ h1 {
   .banner button a {
     display: inline-block; 
     padding: 3px 6px; /* Adjust padding for smaller size */
-    font-size: 12px; /* Adjust font size for smaller size */
-    border: 2px solid white; 
+    font-size: 10px; /* Adjust font size for smaller size */
+    border: 1px solid white; 
     text-decoration: none; 
     color: white; 
     border-radius: 12px; /* Adjust border-radius for smaller size */
@@ -311,20 +311,29 @@ h1 {
 
   .container {
     padding-bottom: 0px; /* Adjust padding for smaller screens */
+    border-bottom: solid 7rem rgb(58 57 57);
+    
   }
 
   .sub-text {
-    margin: 20px 0; /* Adjust margin for smaller screens */
-    width: 100%; /* Set width to full for stacking */
-    flex: none; /* Disable flex basis to prevent them from being next to each other */
+    margin: 40px 0;
+    width: 100%;
+    flex: none;
+    padding: 1rem;
+
+    height: 22rem;
   }
 
   .video-wrapper iframe {
     width: 100%; /* Make video frame full width on smaller screens */
     height: 250px; /* Adjust height for smaller screens */
-    top: 5%; /* Remove positioning */
+    top: 1%; /* Remove positioning */
     left: unset; /* Remove positioning */
     transform: unset; /* Remove positioning */
+  }
+
+  .ready {
+    height: 15rem;
   }
 
   .ready h3 {
@@ -351,12 +360,12 @@ h1 {
 
   .contact input[type="text"],
   .email input[type="text"] {
-    width: 45%; /* Adjust input width for smaller screens */
+    width: 100%; /* Adjust input width for smaller screens */
     height: 55%;
   }
 
   .colored-field {
-    height: auto; /* Adjust height for smaller screens */
+    height: 3rem; /* Adjust height for smaller screens */
     padding: 20px; /* Add padding for better spacing */
   }
 }
